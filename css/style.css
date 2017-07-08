@@ -4,20 +4,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
-	width: 1200px;
-	height: 200px;
-	margin: 0 auto;
 	background-image: url(http://2.bp.blogspot.com/_yDn_Zzfh85I/Ruos3usbNpI/AAAAAAAABUI/Cnk85rBTvcs/s320/erase+una+vez.jpg);
+	position: relative;
 }
+
 .jokes {
 	background: #000;
 	color: #FFF;
-	max-width: 800px;
+	width: 800px;
 	height: 300px;
 	text-align: center;
 	padding: 35px;
-	margin: 340px 0 0 225px;
+	position: absolute;
+	top: 340px;
+	left: 580px;
+	
 }
 #get-joke {
 	width: 120px;
@@ -25,8 +28,7 @@ body {
 	border-radius: 5px;
 	background-color:red;
 	color: #fff;
-	border: 2px;
-	border-color: #fff;
+	outline: #fff;
 	font-family: 'Josefin Slab', serif;
 	font-size: 20px;
 	cursor: pointer;
