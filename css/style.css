@@ -1,42 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	background-image: url(http://2.bp.blogspot.com/_yDn_Zzfh85I/Ruos3usbNpI/AAAAAAAABUI/Cnk85rBTvcs/s320/erase+una+vez.jpg);
-	position: relative;
+    background-image: url('http://2.bp.blogspot.com/_yDn_Zzfh85I/Ruos3usbNpI/AAAAAAAABUI/Cnk85rBTvcs/s320/erase+una+vez.jpg');
 }
 
 .jokes {
-	background: #000;
-	color: #FFF;
-	width: 800px;
-	height: 300px;
-	text-align: center;
-	padding: 35px;
-	position: absolute;
-	top: 340px;
-	left: 580px;
-	
+    background: #000;
+    color: #FFF;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    padding: 35px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 #get-joke {
-	width: 120px;
-	height: 75px;
-	border-radius: 5px;
-	background-color:red;
-	color: #fff;
-	outline: #fff;
-	font-family: 'Josefin Slab', serif;
-	font-size: 20px;
-	cursor: pointer;
+    width: 120px;
+    height: 75px;
+    border-radius: 5px;
+    background-color:red;
+    color: #fff;
+    outline: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    cursor: pointer;
 
 }
 #joke {
-	padding-top: 45px;
-	font-family: 'Josefin Slab', serif;
-	font-size: 26px;
-
+    padding-top: 45px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 26px;
 }
